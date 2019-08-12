@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+```
+rails g model user email:string password_hash:string password_salt:string
+```
